@@ -25,11 +25,7 @@ public class Main {
         int maxWorkingHours = scanner.nextInt();
 
         // Passing inputs to the calculator
-        EmployeeWageCalculator calculator = new EmployeeWageCalculator(
-                wagePerHour, fullDayHour, partTimeHour, workingDaysPerMonth, maxWorkingHours
-        );
 
-        calculator.calculateTotalWages();
 
         scanner.close();
     }
